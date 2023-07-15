@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainPart{
+    border-radius: 20px;
+    box-shadow: 15px 15px 45px #d7d5d5;
+}
+
+
+
+
+/* clock ui---------------------------------------------------------------- */
+.clock-ui{
+    height: 220px;
+    width: 220px;
+    border-radius: 55px;
+    background-color: #E5ECF8;
+    margin: 0px 20px;
+    box-shadow: -10px -3px 13px #fcf8f8, 2px 2px 13px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock-ui1{
+    position: relative;
+    height: 210px;
+    width: 210px;
+    border-radius: 55px;
+    background-color: #E5ECF8;
+    border: 1px solid #3A4362;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #3A4362;
+    text-shadow: 3px 3px 1px white;
+    
+}
+
+
+
+
+/* --------------alarm------------------------------------ */
+
+.scroll div h3{
+    border-radius: 5px;
+    border: none;
+    box-shadow: -3px -3px 11px #fcf8f8, 2px 3px 11px gray;;
+    margin: 0px 20px 10px 20px;
+    padding: 3px 6px;
+    color: #3A4362;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inputValue{
+    background-color: #CFD8E9;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px;
+}
+
+
+
+
+/* button--------------------------------------------------------- */
+.add-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-button button{
+    
+    box-shadow: -2px -2px 2px #fcf8f8, 2px 2px 2px gray;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    width: 24px;
+
+}
